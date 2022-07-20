@@ -15,7 +15,7 @@ class PasswordGui(object):
         self.characters = characters
         self.button = Button(parent, text='Generate Passowrd', command=self.update_label)
         self.button.grid(row=0, column=1, padx=50)
-        self.output = Label(parent, text='Press Generate')
+        self.output = Label(parent, text='free thugger')
         self.output.grid(row=1, column=1, padx=10, pady=10)
     
     def pass_generator(self, size, characters):
